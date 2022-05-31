@@ -7,4 +7,4 @@ Practical content carried out in the classroom during the Entra21 project.
 
 | CLASS | SUBJECT |
 |------|---------|
-|Class 01 - 01|[...](https://oliota.com/curso_detalhe/entra21-21-04-2022-logica-programacao/1649354372149)
+|Class 01 - 01|[Wrappers | ENUM](./Java%20avancado/src/br/com/entra21/java/avancado/principal/)|
