@@ -7,4 +7,4 @@ Practical content carried out in the classroom during the Entra21 project.
 
 | CLASS | SUBJECT |
 |------|---------|
-|Class 01 - 01|[Wrappers | ENUM](./Java%20avancado/src/br/com/entra21/java/avancado/principal/)|
+|Class 01 - 01|[Wrappers and ENUM](./Java%20avancado/src/br/com/entra21/java/avancado/principal/)|
