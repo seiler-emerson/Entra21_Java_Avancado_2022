@@ -87,7 +87,29 @@ public class Main {
 		
 		System.out.println("Gosto deste tipo de personagem "+PersonagemJogo.ANAO);
 		System.out.println("Geralmente a classe "+PersonagemJogo.ANAO+" tem HP = "+PersonagemJogo.ANAO.getHP());
+		System.out.println("Veja a caracteristica masi comum dele: "+PersonagemJogo.ANAO.getDESCRICAO());
 		
+		System.out.println("O mago esta no indice do enum "+PersonagemJogo.MAGO.ordinal());
+        System.out.println("\n Veja a descrição completa do " + PersonagemJogo.MAGO + " sua vida é "
+                + PersonagemJogo.MAGO.getHP() + " e sua habilidade principal " + PersonagemJogo.MAGO.getDESCRICAO());
+        
+        System.out.println(PersonagemJogo.BARBARO.getDetails());
+        
+        System.out.println("");
+        for (int personagem = 0; personagem < PersonagemJogo.values().length; personagem++) {
+			
+        	System.out.println("Contador = "+personagem+" posicao do Enum = "+PersonagemJogo.values()[personagem].ordinal());
+        	System.out.println("O personagem "+PersonagemJogo.values()[personagem].name());
+        	System.out.println(PersonagemJogo.values()[personagem].getHP());
+        	System.out.println(PersonagemJogo.values()[personagem].getDESCRICAO());
+        	System.out.println("-----------------------------------------");
+		}
+        
+        for(PersonagemJogo variavel:PersonagemJogo.values() ) {
+        	System.out.println(variavel.ordinal() + " - " +variavel.getDetails());
+        }
+        System.out.println("");
+        System.out.println("O Druida esta na posicao "+PersonagemJogo.DRUIDA.ordinal());
 	}
 }
 
