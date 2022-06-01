@@ -2,10 +2,17 @@ package br.com.entra21.java.avancado.principal;
 
 import java.util.Scanner;
 
+import br.com.entra21.java.avancado.principal.aula01.enums.PersonagemJogo;
+
 public class Main {
 
 	static Scanner input = new Scanner(System.in);
 
+	public enum DiasSemana {
+		SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA, SABADO, DOMINGO
+	}
+	
+	
 	public static void main(String[] args) {
 		byte option;
 
@@ -70,8 +77,45 @@ public class Main {
 	
 	private static void aprenderEnum() {
 		
+		System.out.println("Testando Enum: "+DiasSemana.TERCA);
+		boolean hoje = DiasSemana.DOMINGO == DiasSemana.SEGUNDA;
+		System.out.println(hoje?"sim":"nao");
 		
+		for (int dia =0;dia< DiasSemana.values().length;dia++) {
+			System.out.println((dia+1)+" - "+DiasSemana.values()[dia]);
+		}
 		
+		System.out.println("Gosto deste tipo de personagem "+PersonagemJogo.ANAO);
+		System.out.println("Geralmente a classe "+PersonagemJogo.ANAO+" tem HP = "+PersonagemJogo.ANAO.getHP());
 		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
