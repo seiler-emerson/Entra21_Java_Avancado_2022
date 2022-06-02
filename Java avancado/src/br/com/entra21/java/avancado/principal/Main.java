@@ -3,6 +3,7 @@ package br.com.entra21.java.avancado.principal;
 import java.util.Scanner;
 
 import br.com.entra21.java.avancado.principal.aula01.enums.PersonagemJogo;
+import br.com.entra21.java.avancado.principal.aula02.collections.list.AprenderCollections;
 
 public class Main {
 
@@ -31,6 +32,9 @@ public class Main {
 			case 2:
 				aprenderEnum();
 				break;
+			case 3:
+				AprenderCollections.aprender();
+				break;
 			default:
 				System.out.println("Escolha uma opcao valida.");
 				break;
@@ -45,6 +49,7 @@ public class Main {
 		menu += "\n0 - Sair";
 		menu += "\n1 - WRAPPER";
 		menu += "\n2 - ENUM";
+		menu += "\n3 - COLLECTIONS";
 		menu += "\nEscolha uma das opcoes";
 
 		return menu;
