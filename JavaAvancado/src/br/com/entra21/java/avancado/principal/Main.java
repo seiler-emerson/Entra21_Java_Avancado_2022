@@ -3,6 +3,7 @@ package br.com.entra21.java.avancado.principal;
 import java.util.Scanner;
 
 import br.com.entra21.java.avancado.principal.aula01.enums.PersonagemJogo;
+import br.com.entra21.java.avancado.principal.aula01.wrappers.Wrappers;
 import br.com.entra21.java.avancado.principal.aula02.collections.list.AprenderCollections;
 
 public class Main {
@@ -59,24 +60,7 @@ public class Main {
 		
 		//Conversao de tipos primitivos
 		
-		//Caracter
-		char letra = Character.valueOf('e');
-		
-		//Booleans
-		boolean verdade = Boolean.parseBoolean("TRUE");
-		boolean verdade1 = Boolean.parseBoolean("tRue");
-		boolean verdade3 = Boolean.parseBoolean("true");
-		boolean falso = Boolean.parseBoolean("t");
-		
-		//Inteiros
-		byte inteiroUm = Byte.parseByte("127");
-		short inteiroDois = Short.parseShort("128");
-		int inteiroTres = Integer.parseInt("10000");
-		long inteiroQuatro = Long.parseLong("1000000");
-		
-		//Decimal
-		float decimalUm = Float.parseFloat("1000.10");
-		double decimalDois = Double.parseDouble("2000.20 ");
+		Wrappers.aprenderWrapper();
 		
 	}
 	
