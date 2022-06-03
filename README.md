@@ -9,4 +9,5 @@ Practical content carried out in the classroom during the Entra21 project.
 |------|---------|
 |Class 01 - 01|[Wrappers](./JavaAvancado/src/br/com/entra21/java/avancado/principal/aula01/wrappers/)|
 |Class 01 - 03|[Enums](./JavaAvancado/src/br/com/entra21/java/avancado/principal/aula01/enums/)|
-|Class 02 - 01|[ArrayList](./JavaAvancado/src/br/com/entra21/java/avancado/principal/aula02/collections/list/)|
+|Class 02 - 01|[Collections - ArrayList / LinkedList](./JavaAvancado/src/br/com/entra21/java/avancado/principal/aula02/collections/list/)|
+|Class 03 - 01|[Annotations and Dates](./JavaAvancado/src/br/com/entra21/java/avancado/principal/aula03/)|

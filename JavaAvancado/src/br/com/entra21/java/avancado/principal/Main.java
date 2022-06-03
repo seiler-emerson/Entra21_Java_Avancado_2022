@@ -5,6 +5,7 @@ import java.util.Scanner;
 import br.com.entra21.java.avancado.principal.aula01.enums.PersonagemJogo;
 import br.com.entra21.java.avancado.principal.aula01.wrappers.Wrappers;
 import br.com.entra21.java.avancado.principal.aula02.collections.list.AprenderCollections;
+import br.com.entra21.java.avancado.principal.aula03.Aula03;
 
 public class Main {
 
@@ -36,6 +37,9 @@ public class Main {
 			case 3:
 				AprenderCollections.aprender();
 				break;
+			case 4:
+				Aula03.aprender();
+				break;
 			default:
 				System.out.println("Escolha uma opcao valida.");
 				break;
@@ -51,6 +55,7 @@ public class Main {
 		menu += "\n1 - WRAPPER";
 		menu += "\n2 - ENUM";
 		menu += "\n3 - COLLECTIONS";
+		menu += "\n4 - Anotacoes e Datas";
 		menu += "\nEscolha uma das opcoes";
 
 		return menu;
