@@ -78,6 +78,7 @@ public class Aula03 {
 		LocalDate nascimento = LocalDate.of(1995, 4, 8);
 		System.out.println(nascimento);
 		
+		
 		LocalDate essaQuinta = LocalDate.of(2022, Month.JUNE, 2);
 		System.out.println("Essa quinta é referente a data "+essaQuinta);
 		
