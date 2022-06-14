@@ -72,6 +72,7 @@ public class Aula07 extends Aula {
 		try {
 			System.out.println("Resultado " + (numeroA / numeroB));
 		} catch (ArithmeticException e) {
+			
 			System.out.println("Tentando dividir um inteiro por zero?  se não quer dividir não divida ueh");
 		}
 
