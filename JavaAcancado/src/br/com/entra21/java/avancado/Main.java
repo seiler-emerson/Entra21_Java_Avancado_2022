@@ -16,6 +16,7 @@ import br.com.entra21.java.avancado.aula04.Aula04;
 import br.com.entra21.java.avancado.aula05.Aula05;
 import br.com.entra21.java.avancado.aula06.Aula06;
 import br.com.entra21.java.avancado.aula07.Aula07;
+import br.com.entra21.java.avancado.aula08.Aula08;
 
 public class Main {
 
@@ -72,7 +73,12 @@ public class Main {
 										.aprender();
 				break;
 			case 8:
-				pedirPaciencia();
+				 ArrayList<String> topico = new ArrayList<>();
+	                topico.add("Aprender Listar");
+	                topico.add("Filtrar");
+	                topico.add("Estatisticas");
+	                topico.add("Ordenacao");
+	                new Aula08("AULA 8", topico).aprender();
 				break;
 			case 9:
 				pedirPaciencia();
