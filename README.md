@@ -16,3 +16,5 @@ Practical content carried out in the classroom during the Entra21 project.
 |Class 06 - 01|[Generics](./JavaAcancado/src/br/com/entra21/java/avancado/aula06/README.md)|
 |Class 07 - 01|[Exceptions](./JavaAcancado/src/br/com/entra21/java/avancado/aula07/README.md)|
 |Class 08 - 01|[Lambda Function](./JavaAcancado/src/br/com/entra21/java/avancado/aula08/README.md)|
+|Class 09 - 01|[Exercises](./JavaAcancado/src/br/com/entra21/java/avancado/aula09)|
+|Class 10 - 01|[Final Project](https://github.com/seiler-emerson/Entra21_Project_EMR_2022)|
